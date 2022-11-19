@@ -1,4 +1,4 @@
-package TwoPointer
+package Easy
 
 // https://leetcode.cn/problems/remove-element/solutions/
 func removeElement(nums []int, val int) int {
