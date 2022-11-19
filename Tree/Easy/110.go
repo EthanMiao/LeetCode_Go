@@ -1,5 +1,6 @@
-package Tree
+package Easy
 
+// https://leetcode.cn/problems/balanced-binary-tree/
 // 自顶向下
 func isBalanced1(root *TreeNode) bool {
 	if root == nil {

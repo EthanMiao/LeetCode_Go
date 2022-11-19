@@ -1,4 +1,4 @@
-package Tree
+package Easy
 
 // https://leetcode.cn/problems/binary-tree-postorder-traversal/
 // 后序遍历 左右中

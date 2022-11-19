@@ -1,15 +1,18 @@
-package Tree
+package Medium
 
+import "LeetCode_Go/Tree/Easy"
+
+// https://leetcode.cn/problems/find-bottom-left-tree-value/
 var curHeight = 0
 var result = 0
 
 // DFS
-func findBottomLeftValue(root *TreeNode) int {
+func findBottomLeftValue(root *Easy.TreeNode) int {
 	depthFirst(root, 0)
 	return result
 }
 
-func depthFirst(node *TreeNode, height int) {
+func depthFirst(node *Easy.TreeNode, height int) {
 	if node == nil {
 		return
 	}
@@ -24,8 +27,8 @@ func depthFirst(node *TreeNode, height int) {
 }
 
 // BFS
-func findBottomLeftValue1(root *TreeNode) int {
-	q := []*TreeNode{root}
+func findBottomLeftValue1(root *Easy.TreeNode) int {
+	q := []*Easy.TreeNode{root}
 	ans := 0
 	for len(q) > 0 {
 		node := q[0]

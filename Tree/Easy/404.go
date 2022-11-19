@@ -1,5 +1,6 @@
-package Tree
+package Easy
 
+// https://leetcode.cn/problems/sum-of-left-leaves/
 // DFS
 func sumOfLeftLeaves(root *TreeNode) int {
 	if root == nil {

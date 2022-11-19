@@ -1,4 +1,4 @@
-package Tree
+package Easy
 
 import "container/list"
 

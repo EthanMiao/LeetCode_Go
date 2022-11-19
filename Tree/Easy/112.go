@@ -1,5 +1,6 @@
-package Tree
+package Easy
 
+// https://leetcode.cn/problems/path-sum/
 // DFS 第一种写法
 func hasPathSum(root *TreeNode, targetSum int) bool {
 	if root == nil {

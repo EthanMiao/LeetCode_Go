@@ -1,7 +1,10 @@
-package Tree
+package Easy
 
-import "strconv"
+import (
+	"strconv"
+)
 
+// https://leetcode.cn/problems/binary-tree-paths/
 // 官方，省内存
 var paths []string
 

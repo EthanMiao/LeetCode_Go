@@ -1,4 +1,4 @@
-package Tree
+package Easy
 
 // https://leetcode.cn/problems/binary-tree-inorder-traversal/
 // 中序遍历 左中右
