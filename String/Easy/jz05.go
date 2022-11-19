@@ -1,4 +1,4 @@
-package String
+package Easy
 
 // https://leetcode.cn/problems/ti-huan-kong-ge-lcof/
 func replaceSpace(s string) string {

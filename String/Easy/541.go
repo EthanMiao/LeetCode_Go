@@ -1,4 +1,4 @@
-package String
+package Easy
 
 // https://leetcode.cn/problems/reverse-string-ii/
 func reverseStr(s string, k int) string {

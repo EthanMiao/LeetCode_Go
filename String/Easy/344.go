@@ -1,4 +1,4 @@
-package String
+package Easy
 
 // https://leetcode.cn/problems/reverse-string/
 func reverseString(s []byte) {

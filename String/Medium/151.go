@@ -1,11 +1,11 @@
-package String
+package Medium
 
 import (
 	"regexp"
 )
 
-// ReverseWords https://leetcode.cn/problems/reverse-words-in-a-string/
-func ReverseWords(s string) string {
+// https://leetcode.cn/problems/reverse-words-in-a-string/
+func reverseWords(s string) string {
 	b := []byte(s)
 
 	var reverse func(start, end int)
@@ -36,7 +36,7 @@ func ReverseWords(s string) string {
 	return result[1:]
 }
 
-func ReverseWords2(s string) string {
+func reverseWords2(s string) string {
 	reg := regexp.MustCompile("\\s+")
 	split := reg.Split(s, -1)
 	result := ""

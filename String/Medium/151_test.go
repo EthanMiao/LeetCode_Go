@@ -1,4 +1,4 @@
-package String
+package Medium
 
 import (
 	"fmt"
@@ -6,11 +6,11 @@ import (
 )
 
 func TestReverseWords(t *testing.T) {
-	result := ReverseWords(" hello test world ")
+	result := reverseWords(" hello test world ")
 	fmt.Println(result)
 }
 
 func TestReverseWords2(t *testing.T) {
-	result := ReverseWords(" hello world ")
+	result := reverseWords(" hello world ")
 	fmt.Println("$" + result + "$")
 }
