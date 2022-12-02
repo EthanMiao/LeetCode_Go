@@ -12,3 +12,18 @@ func climbStairs(n int) int {
 	}
 	return c
 }
+
+// 完全背包解法
+func climbStairs1(n int) int {
+	dp := make([]int, n+1)
+	dp[0] = 1
+	value := []int{1, 2}
+	for i := 0; i <= n; i++ {
+		for j := 0; j < 2; j++ {
+			if i >= value[j] {
+				dp[i] += dp[i-value[j]]
+			}
+		}
+	}
+	return dp[n]
+}
