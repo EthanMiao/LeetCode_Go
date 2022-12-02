@@ -74,3 +74,7 @@ func TestWordBreak(t *testing.T) {
 func TestRob(t *testing.T) {
 	fmt.Printf("%v\n", rob([]int{2, 7, 9, 3, 1}))
 }
+
+func TestRob1(t *testing.T) {
+	fmt.Printf("%v\n", rob1([]int{2, 3, 2}))
+}
