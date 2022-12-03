@@ -16,3 +16,7 @@ func Test746(t *testing.T) {
 func Test70_1(t *testing.T) {
 	fmt.Printf("%v\n", climbStairs1(5))
 }
+
+func TestFindLengthOfLCIS(t *testing.T) {
+	fmt.Printf("%v\n", findLengthOfLCIS1([]int{1, 3, 5, 4, 7}))
+}

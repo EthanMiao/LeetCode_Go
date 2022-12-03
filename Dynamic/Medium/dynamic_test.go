@@ -78,3 +78,7 @@ func TestRob(t *testing.T) {
 func TestRob1(t *testing.T) {
 	fmt.Printf("%v\n", rob1([]int{2, 3, 2}))
 }
+
+func TestMaxSubArray(t *testing.T) {
+	fmt.Printf("%v\n", maxSubArray([]int{-1, -2}))
+}
